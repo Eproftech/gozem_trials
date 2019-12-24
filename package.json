@@ -1,0 +1,34 @@
+{
+  "name": "gozem_trial",
+  "version": "1.0.0",
+  "description": "api code for trial for gozem api role",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "API_APP_VERSION=$npm_package_version nodemon --exec babel-node src/app.js"
+  },
+  "keywords": [
+    "maps"
+  ],
+  "author": "evans",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "@google/maps": "^1.0.2",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "winston": "^2.4.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "jshint": "^2.11.0-rc1",
+    "nodemon": "^2.0.2"
+  }
+}
